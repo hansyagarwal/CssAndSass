@@ -1,4 +1,4 @@
-container:
+container: set display: flex
 
 flex-direction: row | row-reverse | column | column-reverse
 fex-wrap: nowrap | wrap | wrap-reverse
@@ -13,6 +13,6 @@ align-self: auto | stretch | flex-start | flex-end | center | baseline
 order: 0 | <integer>
 flex-grow: 0 | <integer>
 flex-shrink: 1 | <integer>
-flex-basic: auto | <length>
+flex-basis: auto | <length>
 OR
 flex: 0 1 auto | <int> <int> <len>
