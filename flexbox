@@ -1,13 +1,13 @@
 container: set display: flex
 
 flex-direction: row | row-reverse | column | column-reverse
-fex-wrap: nowrap | wrap | wrap-reverse
+flex-wrap: nowrap | wrap | wrap-reverse
 justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly
 align-items: strech | flex-start | flex-end | center | baseline
 align-content: strech | flex-start | flex-end | center | space-between | space-around
 
 
-item
+items
 
 align-self: auto | stretch | flex-start | flex-end | center | baseline
 order: 0 | <integer>
